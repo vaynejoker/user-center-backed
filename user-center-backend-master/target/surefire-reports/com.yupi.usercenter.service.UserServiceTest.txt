@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.yupi.usercenter.service.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 1, Skipped: 0, Time elapsed: 2.919 s <<< FAILURE! - in com.yupi.usercenter.service.UserServiceTest
+userRegister  Time elapsed: 0.017 s  <<< ERROR!
+com.yupi.usercenter.exception.BusinessException: 请求参数错误
+	at com.yupi.usercenter.service.UserServiceTest.userRegister(UserServiceTest.java:91)
+
+testUpdateUser  Time elapsed: 0.011 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.yupi.usercenter.service.UserServiceTest.testUpdateUser(UserServiceTest.java:59)
+
+testGetUser  Time elapsed: 0.009 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not <null>
+	at com.yupi.usercenter.service.UserServiceTest.testGetUser(UserServiceTest.java:79)
+
+testDeleteUser  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.yupi.usercenter.service.UserServiceTest.testDeleteUser(UserServiceTest.java:68)
+
